@@ -1,0 +1,14 @@
+http:
+  host: localhost
+
+mysql:
+  host: localhost
+  port: 3306
+  user: root
+  pwd: root
+  db: user
+
+trace:
+  host: localhost
+  port: 9411
+  url: /api/v2/spans
