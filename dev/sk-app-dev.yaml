@@ -18,20 +18,20 @@ redis:
   password: 
   db: 3
   proxy2layer_queue_name: name
-  ip_black_list_hash: "IpBLH"
-  id_black_list_hash: "IdBLH"
-  ip_black_list_queue: "IpBLQ"
-  id_black_list_queue: "IdBLQ"
+  ipblacklisthash: "IpBLH"
+  idblacklisthash: "IdBLH"
+  ipblacklistqueue: "IpBLQ"
+  idblacklistqueue: "IdBLQ"
 
 service:
-  ip_sec_access_limit: 1000
-  ip_min_access_limit: 1000
-  user_sec_access_limit: 1000
-  user_min_access_limit: 1000
-  write_proxy2layer_goroutine_num: 100
-  read_proxy2layer_goroutine_num: 100
-  cookie_secretkey: pEacill
-  refer_whitelist: test,test1
+  ipsecaccesslimit: 1000
+  ipminaccesslimit: 1000
+  usersecaccesslimit: 1000
+  userminaccesslimit: 1000
+  writeproxy2layergoroutine_num: 100
+  readproxy2layergoroutine_num: 100
+  cookiesecretkey: pEacill
+  referwhitelist: test,test1
   AppWriteToHandleGoroutineNum: 10
   AppReadFromHandleGoroutineNum: 10
   CoreReadRedisGoroutineNum: 10
